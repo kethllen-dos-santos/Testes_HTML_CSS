@@ -19,7 +19,6 @@ Explorar e aplicar conceitos fundamentais de desenvolvimento web, construindo p�
 - Tabelas (básico e avançado)
 - Formulários e seus componentes
 - Caracteres especiais
-- _Desenvolvimento do projeto UNES - Página Institucional_
 
 ### CSS
 - Introdução ao CSS3
