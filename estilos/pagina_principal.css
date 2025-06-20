@@ -1,0 +1,47 @@
+header{
+	background-image: url("../imagens/banner_site.jpg");
+	background-color: skyblue;
+	background-position: bottom;
+	background-size: cover;
+	height: 230px;
+
+	display: flex;
+	justify-content: center; /* Alinhamento Horizontal */
+	align-items: center; /* Alinhamento Vertical */
+	text-align: center;
+	position: relative;
+	border-bottom: 3px solid #FFF;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+#conteudo {
+	text-align: center;
+	padding: 30px;
+	margin: auto;
+	width: 70%;
+}
+
+#conteudo a {
+	display: inline-block;
+	background-color: #F97799;
+	border: 2px solid #FEA6BC;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 15px;
+	margin: 20px;
+	color: #FFF;
+	min-width: 50px;
+}
+
+#conteudo a:hover {
+	background-color: #FEA6BC;
+	border: 2px solid #000;
+	color: #000;
+}
