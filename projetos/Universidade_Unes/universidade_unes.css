@@ -1,0 +1,85 @@
+body {
+	background-color: #FFF;
+	color: #000;
+}
+
+header {
+	background-color: #FFF;
+	border-top: 5px solid #6D78A8;
+	height: 100px;
+}
+
+header a {
+	text-decoration: none;
+	color: #383F5D;
+	padding: 10px 15px;
+}
+
+header a:hover {
+	background-color: #6D78A8;
+	color: #FFF;
+}
+
+#menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#menu_atual {
+	font-weight: bolder;
+}
+
+.tamanho_pagina {
+	margin: auto;
+	width: 70%;
+	height: 100%;
+}
+
+.tamanho_pagina li {
+	margin-bottom: 7px;
+}
+
+#capa {
+	background-color: #EFEFEF;
+	height: 380px;
+}
+
+#capa div {
+	background-image: url(capa.png);
+	background-size: cover;
+}
+
+#contato {
+	text-align: center;
+}
+
+.formulario {
+	margin: 25px 0 7px;
+	font-weight: bolder;
+}
+
+input {
+	width: 300px;
+	height: 20px;
+	text-align: center;
+}
+
+textarea {
+	width: 300px;
+	text-align: center;
+}
+
+.botao {
+	height: auto;
+	width: auto;
+	margin: 15px;
+	padding: 7px;
+	font-size: 1.2em;
+}
+
+footer {
+	color: #383F5D;
+	font-weight: bolder;
+	padding: 40px;
+}

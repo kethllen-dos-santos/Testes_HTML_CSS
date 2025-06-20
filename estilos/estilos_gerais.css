@@ -5,7 +5,7 @@ body {
 	background-size: cover;
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: Montserrat, Georgia;
 	color: #FFF;
 }
@@ -23,3 +23,63 @@ body {
 	z-index: 2;
 	text-shadow: 2px 2px 4px #000;
 }
+
+.centralizar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centralizar_v {
+	display: flex;
+	align-items: center;
+}
+
+.centralizar_h {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* Para o cabeçalho padrão em todos os projetos */
+
+#cabecalho_padrao {
+	background-color: #1C1C1C;
+}
+
+#cabecalho_padrao a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#menu_padrao {
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#menu_padrao a {
+	padding: 15px;
+	margin: 5px;
+}
+
+#menu_padrao a:hover {
+	color: #9400EE;
+	font-weight: bolder;
+}
+
+#logo_padrao {
+	width: 20%;
+	padding: 0;
+	margin: 0 0 0 15px;
+}
+
+#logo_padrao a:hover{
+	color: #FFF;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Fim cabeçalho padrão */
