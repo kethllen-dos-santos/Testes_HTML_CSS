@@ -41,7 +41,6 @@ Explorar e aplicar conceitos fundamentais de desenvolvimento web, construindo p�
   - Fixo
 - Sobreposição de elementos (z-index)
 - Estilização de links
-- _Desenvolvimento do projeto Anna Bella - Portifólio_
 - _Desenvolvimento do projeto TecBlog - Blog de Tecnologia_
 
 ## Tecnologias utilizadas
