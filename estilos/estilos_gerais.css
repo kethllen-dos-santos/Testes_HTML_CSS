@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
 	background-color: #121327;
 	/* background-image: url("../imagens/fundo2.png"); */
@@ -45,6 +48,7 @@ body {
 
 #cabecalho_padrao {
 	background-color: #1C1C1C;
+	font-family: Montserrat, Georgia;
 }
 
 #cabecalho_padrao a {

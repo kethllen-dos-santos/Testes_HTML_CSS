@@ -3,6 +3,10 @@ body {
 	color: #000;
 }
 
+a {
+	color: #6D78A8;
+}
+
 header {
 	background-color: #FFF;
 	border-top: 5px solid #6D78A8;
@@ -79,7 +83,10 @@ textarea {
 }
 
 footer {
+	background-color: aliceblue;
 	color: #383F5D;
 	font-weight: bolder;
-	padding: 40px;
+	margin-top: 60px;
+	padding:30px;
+	text-align: center;
 }
