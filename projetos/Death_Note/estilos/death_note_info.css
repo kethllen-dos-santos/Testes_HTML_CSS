@@ -1,0 +1,199 @@
+body {
+	background-color: #171717;
+}
+
+header {
+	background-image: url(../imagens/death_note_banner.png);
+	background-color: #000;
+	background-size: cover;
+	background-position: center;
+	padding: 20px 30px;
+
+	text-shadow: 2px 2px 4px #000;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 35px 0 20px;
+	padding: 0;
+	font-size: 0.8em;
+}
+
+header li {
+	display: inline-block;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+header a {
+	color: #DADADA;
+}
+
+header a:hover {
+	color: #FFF;
+}
+
+#capa {
+	width: 40%;
+}
+
+#sinopse {
+	font-size: 0.9em;
+}
+
+#classificacao_indicativa_14 {
+	margin: 0;
+	font-weight: bolder;
+
+	#classificacao_numero {
+		text-shadow: none;
+		background-color: #EF762D;
+		font-size: 1.5em;
+		font-family: arial;
+		width: 40px;
+		height: 40px;
+	}
+
+	#classificacao_descricao {
+		border: 2px solid #EF762D;
+		font-size: 0.8em;
+		padding: 5px;
+		width: 200px;
+	}
+}
+
+#conteudo {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#coluna1, #coluna2 {
+	width: 50%;
+	padding: 30px;
+}
+
+hr {
+	border: 1px solid #848484;
+}
+
+
+article {
+	background-color: #1C1C1C;
+	border-radius: 15px;
+	color: #B3B2B2;
+	margin-bottom: 20px;
+	padding: 15px;
+
+	h1 {
+		font-size: 1.6em;
+		color: #FFF;
+		text-align: center;
+	}
+
+	h2 {
+		color: #FFF;
+		text-align: center;
+	}
+}
+
+table {
+	margin-top: 1em;
+}
+
+table th {
+	padding-bottom: 1em;
+
+	h2 {
+		margin: 0;
+	}
+}
+
+table img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.foto {
+	width: 20%;
+}
+
+.descricao {
+	padding: 10px;
+}
+
+#midias {
+	h3 {
+		margin: 0 0 5px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.manga, .anime, .live_action_japones, .live_action_americano, .jogo, .novel {
+	background-color: #000;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	width: 30%;
+}
+
+.manga {
+	background-image: url(../imagens/manga.jpg);
+}
+
+.anime {
+	background-image: url(../imagens/anime.jpg);
+}
+
+.live_action_japones {
+	background-image: url(../imagens/live_action_japones.jpg);
+}
+
+.live_action_americano {
+	background-image: url(../imagens/live_action_americano.jpg);
+}
+
+.jogo {
+	background-image: url(../imagens/jogo.jpg);
+}
+
+.novel {
+	background-image: url(../imagens/novel.jpg);
+}
+
+.obras {
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+#onde_assistir {
+	text-align: center;
+	img {
+		width: 20%;
+	}
+
+	a:hover {
+		opacity: 75%;
+
+	}
+}
+
+
+footer {
+	background-color: #131313;
+	padding: 20px;
+	text-align: center;
+	clear: both;
+}
+
+footer a {
+	color: #FF4F63;
+	text-decoration: underline;
+}

@@ -13,6 +13,15 @@ header{
 	border-bottom: 3px solid #FFF;
 }
 
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+footer a {
+	color: hotpink;
+}
+
 h1 {
 	font-size: 2.5em;
 }
